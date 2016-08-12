@@ -36,5 +36,14 @@ source functions.sh
 After loading these functions, you will be able to execute any of mentioned
 programs directly from your shell.
 
+# What I have?
+
+For now I just got:
+```
+ng serve
+```
+
+See in your browser: `http://localhost:4200`
 
 
+to be continue ...

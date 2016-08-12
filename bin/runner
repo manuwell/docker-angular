@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# This executable was necessary to run random commands with args
+# inside a container;
+#
+# Some node binaries must be in PATH, so before running them we add
+# additional paths.
+
+export PATH=$PATH:$HOME/node_modules/.bin
+export PATH=$PATH:$HOME/bin
+
+# enters the app to run commands
+cd $HOME/SampleApp
+
+# runs the given command
+eval $@
